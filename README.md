@@ -2,22 +2,34 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is NICS background check data obtained from https://github.com/BuzzFeedNews/nics-firearm-background-checks.
 
 
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
+## Questions
+ * What are the total number of background checks performed for the selected state?
+ * How many background checks are performed for each category of background check for each state?
+ * How do the background check totals vary over time?
+## Tasks
+ * How to convert the provided month-years to useable date formats
+ * How to load in a map of the US that shows each state
+ * How to associate the state names data with the map boarders
+ * How to hover over or click on a state and obtain the data
+ * How to make that data appear in a bubble over the state
+ * How to make the data show the total for each year and by type of check (without having do modify the csv data to include totals)
+ * How to make a legend with years that are selectable such that the data for each state appears for the selected year
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ 
 
 ## Sketches
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+![Sketch 1](https://github.com/user-attachments/assets/86a18823-b548-4693-985d-c8444ea128ce)
+
+![Sketch 2](https://github.com/user-attachments/assets/c2deb32d-e055-4cba-9ea9-b99cb1e4b413)
+
+Sketch
 
 
 ## Prototypes
