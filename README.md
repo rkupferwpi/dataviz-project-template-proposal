@@ -29,7 +29,10 @@ The following tasks and questions will drive the visualization and interaction d
 
 ![Sketch 2](https://github.com/user-attachments/assets/c2deb32d-e055-4cba-9ea9-b99cb1e4b413)
 
-Sketch
+Sketch 1 shows the data as I would like to present it, as a map of the US where the user can hover over a state (or click on a state) and have a bubble appear that shows the total background checks in the state and the total of each type of background check.  On the right hand side is a legend that allows the user to select from the available years the data is available for.
+
+Sketch 2 shows the data in stacked bar chart form with each state on the x-axis and total on the y-axis.  The stacked bars form the total of each type of check with the total bar lenght the sum of the stacked bar.  On the right hand side is a legend that allows the user to select from the available years the data is available for.  As a bonus, if I went with this visualization, it would be interesting if it could play each year on it's own so one could see the changes in numbers of background checks over time.
+
 
 
 ## Prototypes
