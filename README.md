@@ -37,27 +37,76 @@ Sketch 2 shows the data in stacked bar chart form with each state on the x-axis 
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+Currently I only have one year of data that I've loaded which was the exercise about how to load csv data.
+import { csvParse, select } from 'd3';
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+export const viz = (container, { state, setState }) => {
+  select(container)
+    .selectAll('pre')
+    .data([null])
+    .join('pre')
+    .text(JSON.stringify(state.data, null, 2));
 
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
+  // state.data could be:
+  // * undefined
+  // * 'LOADING'
+  // * An array of objects
+  const { data } = state;
 
-You can put images into here by pasting them into issues.
+  if (data === undefined) {
+    setState((state) => ({
+      ...state,
+      data: 'LOADING',
+    }));
+    fetch('data.csv')
+      .then((response) => response.text())
+      .then((csvString) => {
+        const data = csvParse(csvString);
 
-You can make images into links like this:
+        for (const d of data) {
+          d.month = d.month;
+          d.state = d.state;
+          d.handgun = +d.handgun;
+          d.long_gun = +d.long_gun;
+          d.other = +d.other;
+          d.multiple = +d.multiple;
+        }
 
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
+        setState((state) => ({
+          ...state,
+          data,
+        }));
+      });
+  }
+};
 
-
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
+The result was:
+[
+  {
+    "month": "2023-09",
+    "state": "Alabama",
+    "handgun": 15421,
+    "long_gun": 12848,
+    "other": 1156,
+    "multiple": 1052
+  },
+  {
+    "month": "2023-09",
+    "state": "Alaska",
+    "handgun": 2429,
+    "long_gun": 2543,
+    "other": 262,
+    "multiple": 197
+  },
+  .
+  .
+  .
+  
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+I’m not sure where to get the geographic shapes to build a map from this data nor am I confident that I'll be able to associate the state name in the csv to the map data.  I'm also not confident about making the data selectable by year.
 
 ## Milestones
 
-(for each week, estimate what would be accomplised)
+By the end of week six I would like to at least get the date in the csv into a working date in d3 and I would like to get the entire data set loaded and to figure out the coding to at least get the total number of checks by state.
