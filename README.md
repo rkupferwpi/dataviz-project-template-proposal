@@ -110,3 +110,10 @@ I’m not sure where to get the geographic shapes to build a map from this data 
 ## Milestones
 
 By the end of week six I would like to at least get the date in the csv into a working date in d3 and I would like to get the entire data set loaded and to figure out the coding to at least get the total number of checks by state.
+
+## UPDATE 1
+
+I loaded the map of the US showing just the state borders.  I was about to give up on the map idea and just do the bar chart but then I remembered to use the AI.  I would not have been able to do this without the use of AI.  I find this extremely discouraging.  Here is a picture of the map.
+
+<img width="962" height="501" alt="US Map With States" src="https://github.com/user-attachments/assets/4e179e32-bb64-4696-9215-b1be71f8df73" />
+
