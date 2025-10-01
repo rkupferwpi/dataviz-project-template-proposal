@@ -117,3 +117,57 @@ I loaded the map of the US showing just the state borders.  I was about to give 
 
 <img width="962" height="501" alt="US Map With States" src="https://github.com/user-attachments/assets/4e179e32-bb64-4696-9215-b1be71f8df73" />
 
+## Here is the index.js code
+
+import { select } from 'd3';
+import topojson from 'topojson-client';
+import { map } from './map';
+
+const worldAtlasURL =
+  'https://unpkg.com/visionscarto-world-atlas@0.1.0/world/110m.json';
+
+const usStatesURL =
+  'https://unpkg.com/us-atlas@3.0.0/states-10m.json';
+
+export const main = (container, { state, setState }) => {
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+
+  const svg = select(container)
+    .selectAll('svg')
+    .data([null])
+    .join('svg')
+    .attr('width', width)
+    .attr('height', height);
+
+  // state.data could be:
+  // * undefined
+  // * 'LOADING'
+  // * An array of objects
+  const { data } = state;
+
+  if (data && data !== 'LOADING') {
+    svg.call(map, {
+      data,
+    });
+  }
+
+  if (data === undefined) {
+    setState((state) => ({
+      ...state,
+      data: 'LOADING',
+    }));
+    fetch(usStatesURL)
+      .then((response) => response.json())
+      .then((topoJSONData) => {
+        const data = topojson.feature(
+          topoJSONData,
+          topoJSONData.objects.states,
+        );
+        setState((state) => ({
+          ...state,
+          data,
+        }));
+      });
+  }
+};
