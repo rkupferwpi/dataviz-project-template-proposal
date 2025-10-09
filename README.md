@@ -174,3 +174,18 @@ export const main = (container, { state, setState }) => {
 
 ## Here is the link to the file on VizHub:
 https://vizhub.com/rkupferwpi/1362d30acea64463912d010ce1fa7b5f
+
+## UPDATE 2 Week 7
+I have updated my NICS stacked bar chart to include all the years in the dataset.  I've added a drop down to make the year shown selectable by the user.  I added an addtional drop down to allow the user to show the top 10 states, the top 25 states, or all states.  I've also added a pop up that appears when a user hovers over a bar to show the totals of each type of background check for that state.  Here are some pictures:
+
+<img width="1259" height="577" alt="Top 25 States 2023" src="https://github.com/user-attachments/assets/ddefbe92-c2fa-460b-859a-613f47e758e6" />
+<img width="1251" height="575" alt="Top 25 States 2009" src="https://github.com/user-attachments/assets/ac28069e-2641-4dc0-8938-d6a8fa1fb937" />
+<img width="1262" height="563" alt="Top 10 States 2023" src="https://github.com/user-attachments/assets/d09188cf-573d-45dd-9913-90639365170e" />
+<img width="1261" height="568" alt="Top 10 States 2009" src="https://github.com/user-attachments/assets/3fd8f306-dd81-446d-a63e-0e774b29e62e" />
+<img width="1263" height="577" alt="Pop up" src="https://github.com/user-attachments/assets/8e999d08-efb6-4994-95bb-3d906d4673c4" />
+<img width="1264" height="573" alt="All States 2023" src="https://github.com/user-attachments/assets/951acc7b-1ffb-43bf-b32a-39de76d22470" />
+<img width="1259" height="576" alt="All States 2009" src="https://github.com/user-attachments/assets/ea158a7b-7f51-416d-a1f2-9c7e6eae743d" />
+
+I've also updated my map viz to show a pop up with the name of the state the user is hovering over.  The goal is to get the background check types and totals to show up in the pop up.  Additionally, I updated the viz such that the state that the user hover over fills in with red color.  This is the viz that I would prefer to use for my project.  However, I feel like the most challenging step will be getting the NICS background data to associate with each state.  Here is a picture of what I did:
+
+<img width="966" height="502" alt="US Map with Pop up and Red Fill on Hover" src="https://github.com/user-attachments/assets/594e8624-0f69-41df-83d3-0da38d3724a2" />
