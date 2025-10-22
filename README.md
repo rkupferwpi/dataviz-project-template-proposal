@@ -193,3 +193,10 @@ I've also updated my map viz to show a pop up with the name of the state the use
 <img width="966" height="502" alt="US Map with Pop up and Red Fill on Hover" src="https://github.com/user-attachments/assets/594e8624-0f69-41df-83d3-0da38d3724a2" />
 
 This is the link to this iteration of the map viz: https://vizhub.com/rkupferwpi/b20439bfcbd04d27bdd0ac0b1f7f2966
+
+## UPDATE Week 9
+
+I've added interactivity with the legend on my bar chart such that when the user hovers over the specific type of NICS check the opacity of the other types changes.  When the user moves away from the legend the opacity returns to 1 for all types.  Additionally, I've repositioned the legend, the year selector, and the top counts.
+
+Here is the link to the viz in vizhub:
+https://vizhub.com/rkupferwpi/5f7d5f65164c4f2e8d9355f42a40df43
