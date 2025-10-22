@@ -196,7 +196,28 @@ This is the link to this iteration of the map viz: https://vizhub.com/rkupferwpi
 
 ## UPDATE Week 9
 
-I've added interactivity with the legend on my bar chart such that when the user hovers over the specific type of NICS check the opacity of the other types changes.  When the user moves away from the legend the opacity returns to 1 for all types.  Additionally, I've repositioned the legend, the year selector, and the top counts.
+I've added interactivity with the legend on my bar chart such that when the user hovers over the specific type of NICS check the opacity of the other types changes.  When the user moves away from the legend the opacity returns to 1 for all types.  Additionally, I've repositioned the legend, the year selector, and the top counts.  The other viz I'm working on for my project does not really lend itself to multiple colors and a legend.  I thought about filling in the states with different colors but that will just look confusing as it doesn't correspond to any data that I'd be trying to relay.  My bar chart was a much better candidate for this tasking.
 
 Here is the link to the viz in vizhub:
 https://vizhub.com/rkupferwpi/5f7d5f65164c4f2e8d9355f42a40df43
+
+Here is the result when I hover over handguns:
+
+<img width="1264" height="573" alt="Handguns" src="https://github.com/user-attachments/assets/eb2541e2-8c19-423a-9636-0d9c3d16b500" />
+
+When I hover over long guns:
+
+<img width="1262" height="570" alt="Long guns" src="https://github.com/user-attachments/assets/a9d57ddf-c7fc-4374-9e7b-b0811fb4652f" />
+
+When I hover over multiple:
+
+<img width="1263" height="573" alt="Multiple" src="https://github.com/user-attachments/assets/6781116b-fcd8-411a-ba78-4b9d8f83568b" />
+
+When I hover over other:
+
+<img width="1266" height="571" alt="Other" src="https://github.com/user-attachments/assets/4ef943f3-8312-4726-914a-d798f3aa803f" />
+
+
+
+
+
