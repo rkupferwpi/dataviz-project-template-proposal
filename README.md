@@ -217,6 +217,14 @@ When I hover over other:
 
 <img width="1266" height="571" alt="Other" src="https://github.com/user-attachments/assets/4ef943f3-8312-4726-914a-d798f3aa803f" />
 
+## Update Week 10
+
+I've added the following interactivity to my US map.  When the user clicks on a state, they get a zoomed in view of the state.  When the user clicks off of the state it will zoom out.  However, if the user clicks on another state the viz zooms into that state.  So I've added a reset view button to the bottom right of the viz to restore the view to the default zoom level which shows the entirety of the United States.
+
+Here is a screen shot of this effect:
+<img width="1232" height="587" alt="Zoomed In On Missouri" src="https://github.com/user-attachments/assets/dfd0465d-f3e0-4731-bdb7-77a708419999" />
+
+Here is a link to this iteration:  https://vizhub.com/rkupferwpi/fb169b7e4c5d4f55bc8aa424ff0a1d85
 
 
 
