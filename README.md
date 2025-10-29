@@ -226,6 +226,18 @@ Here is a screen shot of this effect:
 
 Here is a link to this iteration:  https://vizhub.com/rkupferwpi/fb169b7e4c5d4f55bc8aa424ff0a1d85
 
+I've added the following interactivity to my bar chart vis of NICS background checks.  I've added a sort drop down menu that allows the user to organize the bar chart by most to least checks, least to most checks, and alphabetical by state.  I've also added code to move the legend when least to most checks is selected so the bars don't interfere with the legend.
 
+Here are screenshots of these effects.
+Most to least:
+<img width="1263" height="573" alt="Most to Least" src="https://github.com/user-attachments/assets/9cb5c51d-25b9-4e47-94c1-3fe4c6db65fc" />
+
+Least to most:
+<img width="1263" height="578" alt="Least to Most" src="https://github.com/user-attachments/assets/e2512458-2767-4d4f-996c-3e874ccd91cb" />
+
+Alphabetical by state:
+<img width="1262" height="577" alt="Alphabetical by State" src="https://github.com/user-attachments/assets/27c0947c-6593-420d-b218-620c7c1a2a30" />
+
+Here is the link to the current iteration: https://vizhub.com/rkupferwpi/767dedbf8ecc45959057128399e4d899
 
 
