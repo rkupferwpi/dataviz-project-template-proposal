@@ -240,4 +240,17 @@ Alphabetical by state:
 
 Here is the link to the current iteration: https://vizhub.com/rkupferwpi/767dedbf8ecc45959057128399e4d899
 
+## Update Week 11
+I've updated the bar chart with a title, adjusted the drop down selector positioning, and the legend positioning.  I've also changed the background color to a softer color.
 
+Here is an image of the viz:
+<img width="1261" height="577" alt="Bar Chart Polishing" src="https://github.com/user-attachments/assets/13c3b5c4-0c8f-4fb8-a1e6-bd82051fd3b9" />
+
+Here is the link to the VIZ: https://vizhub.com/rkupferwpi/ea9f228118024d6a83ce94d9a6c05843
+
+I've updated the map by adding a title, removing the black border around the continental US, Alaska, and Hawaii, changed the background around the US to a light blue with an opacity of .4, and changed the background color of the states to a light gray.
+
+Here is an image of this viz: 
+<img width="1273" height="556" alt="US Map Polishing" src="https://github.com/user-attachments/assets/9b11198b-fb3e-4f09-be92-c7797ea28dcf" />
+
+Here is a link to the viz: https://vizhub.com/rkupferwpi/91099e4e0c2c4f259b39f9ad9384a909
