@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The visualization (viz) project I propose to create is on that shows by state the number of National Instant Check System (NICS) background checks that occured during selected years.  The data NICS background check data was obtained from https://github.com/BuzzFeedNews/nics-firearm-background-checks.  My primary goal is a map of the US that shows the NICS background check data for that state as a pop up when the user hovers over a state.  Simultaneously, I'm working on a stacked bar chart to show the NICS background check data to present as my visualization if I'm not successful with my primary goal visualization.
+The visualization (viz) project I propose to create is on that shows by state the number of National Instant Check System (NICS) background checks that occured during selected years.  The data NICS background check data was obtained from https://github.com/BuzzFeedNews/nics-firearm-background-checks.  My primary goal is a map of the US that shows the NICS background check data for that state as a pop up when the user hovers over a state.  Additionally, I'm creating a stacked bar chart to show the NICS background check data for each state.
 
 
 ## Questions & Tasks
