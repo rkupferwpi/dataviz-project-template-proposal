@@ -75,9 +75,9 @@ I've updated my map viz to show a pop up with the name of the state the user is 
 
 This is the link to this iteration of the map viz: https://vizhub.com/rkupferwpi/b20439bfcbd04d27bdd0ac0b1f7f2966
 
-## UPDATE Week 9
+## Barchart Interactivity
 
-I've added interactivity with the legend on my bar chart such that when the user hovers over the specific type of NICS check the opacity of the other types changes.  When the user moves away from the legend the opacity returns to 1 for all types.  Additionally, I've repositioned the legend, the year selector, and the top counts.  The other viz I'm working on for my project does not really lend itself to multiple colors and a legend.  I thought about filling in the states with different colors but that will just look confusing as it doesn't correspond to any data that I'd be trying to relay.  My bar chart was a much better candidate for this tasking.
+I've added interactivity with the legend on my bar chart such that when the user hovers over the specific type of NICS check the opacity of the other types changes.  When the user moves away from the legend the opacity returns to 1 for all types.  Additionally, I've repositioned the legend, the year selector, and the top counts.  The map based viz I'm working on for my project does not really lend itself to multiple colors and a legend.  I thought about filling in the states with different colors but that will just look confusing as it doesn't correspond to any data that I'd be trying to relay.  My bar chart was a much better candidate for this tasking.
 
 Here is the link to the viz in vizhub:
 https://vizhub.com/rkupferwpi/5f7d5f65164c4f2e8d9355f42a40df43
@@ -98,7 +98,7 @@ When I hover over other:
 
 <img width="1266" height="571" alt="Other" src="https://github.com/user-attachments/assets/4ef943f3-8312-4726-914a-d798f3aa803f" />
 
-## Update Week 10
+## US Map Interactivity
 
 I've added the following interactivity to my US map.  When the user clicks on a state, they get a zoomed in view of the state.  When the user clicks off of the state it will zoom out.  However, if the user clicks on another state the viz zooms into that state.  So I've added a reset view button to the bottom right of the viz to restore the view to the default zoom level which shows the entirety of the United States.
 
@@ -107,7 +107,9 @@ Here is a screen shot of this effect:
 
 Here is a link to this iteration:  https://vizhub.com/rkupferwpi/fb169b7e4c5d4f55bc8aa424ff0a1d85
 
-I've added the following interactivity to my bar chart vis of NICS background checks.  I've added a sort drop down menu that allows the user to organize the bar chart by most to least checks, least to most checks, and alphabetical by state.  I've also added code to move the legend when least to most checks is selected so the bars don't interfere with the legend.
+## Additional Barchart Interactivity
+
+I've added the following interactivity to the bar chart vis of NICS background checks.  I've added a sort drop down menu that allows the user to organize the bar chart by most to least checks, least to most checks, and alphabetical by state.  I've also added code to move the legend when least to most checks is selected so the bars don't interfere with the legend.
 
 Here are screenshots of these effects.
 Most to least:
@@ -121,13 +123,16 @@ Alphabetical by state:
 
 Here is the link to the current iteration: https://vizhub.com/rkupferwpi/767dedbf8ecc45959057128399e4d899
 
-## Update Week 11
+## Barchart Polishing
+
 I've updated the bar chart with a title, adjusted the drop down selector positioning, and the legend positioning.  I've also changed the background color to a softer color.
 
 Here is an image of the viz:
 <img width="1261" height="577" alt="Bar Chart Polishing" src="https://github.com/user-attachments/assets/13c3b5c4-0c8f-4fb8-a1e6-bd82051fd3b9" />
 
 Here is the link to the VIZ: https://vizhub.com/rkupferwpi/ea9f228118024d6a83ce94d9a6c05843
+
+## US Map Polishing
 
 I've updated the map by adding a title, removing the black border around the continental US, Alaska, and Hawaii, changed the background around the US to a light blue with an opacity of .4, and changed the background color of the states to a light gray.
 
