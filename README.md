@@ -5,14 +5,18 @@
 The visualization (viz) project I propose to create is on that shows by state the number of National Instant Check System (NICS) background checks that occured during selected years.  The data NICS background check data was obtained from https://github.com/BuzzFeedNews/nics-firearm-background-checks.  My primary goal is a map of the US that shows the NICS background check data for that state as a pop up when the user hovers over a state.  Additionally, I'm creating a stacked bar chart to show the NICS background check data for each state.
 
 
-## Questions & Tasks
+## Questions the VIZ will Answer
 
-The following tasks and questions will drive the visualization and interaction decisions for this project:
-## Questions
+The following questions will drive the visualization and interaction decisions for this project:
+
  * What are the total number of background checks performed for the selected state?
  * How many background checks are performed for each category of background check for each state?
  * How do the background check totals vary over time?
-## Tasks
+   
+## Anticipated Challenges
+
+These are some of the challenges I forsee in creating this viz.
+
  * How to convert the provided month-years to useable date formats
  * How to load in a map of the US that shows each state
  * How to associate the state names data with the map boarders
@@ -20,8 +24,6 @@ The following tasks and questions will drive the visualization and interaction d
  * How to make that data appear in a bubble over the state
  * How to make the data show the total for each year and by type of check (without having do modify the csv data to include totals)
  * How to make a legend with years that are selectable such that the data for each state appears for the selected year
-
- 
 
 ## Sketches
 
