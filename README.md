@@ -4,6 +4,14 @@
 
 The visualization (viz) project I propose to create is on that shows by state the number of National Instant Check System (NICS) background checks that occured during selected years.  The data NICS background check data was obtained from https://github.com/BuzzFeedNews/nics-firearm-background-checks.  My primary goal is a map of the US that shows the NICS background check data for that state as a pop up when the user hovers over a state.  Additionally, I'm creating a stacked bar chart to show the NICS background check data for each state.
 
+Here is some information on the data.  The data contains four categories of background checks:
+1. Handguns
+2. Long guns
+3. Other
+4. Multiple
+
+Categories 1, 2, and 4 are self explanatory.  Category 3 is not self explanatory but what other is are items that are frames (instead of completed firearms), National Firearms Act (NFA) weapons (ie, silencers, machine guns, etc...), and other firearms that are neither handguns nor long guns.  The data ranges from years 1998 to 2023.
+
 
 ## Questions the VIZ will Answer
 
@@ -25,15 +33,17 @@ These are some of the challenges I forsee in creating this viz.
  * How to make the data show the total for each year and by type of check (without having do modify the csv data to include totals)
  * How to make a legend with years that are selectable such that the data for each state appears for the selected year
 
-## Sketches
+## Putting Ideas to Paper
+
+The following two sketches put my ideas onto paper for future development.
 
 ![Sketch 1](https://github.com/user-attachments/assets/86a18823-b548-4693-985d-c8444ea128ce)
 
 ![Sketch 2](https://github.com/user-attachments/assets/c2deb32d-e055-4cba-9ea9-b99cb1e4b413)
 
-Sketch 1 shows the data as I would like to present it, as a map of the US where the user can hover over a state (or click on a state) and have a bubble appear that shows the total background checks in the state and the total of each type of background check.  On the right hand side is a legend that allows the user to select from the available years the data is available for.
+Sketch 1 shows the data as I would like to present it, as a map of the US where the user can hover over a state and have a bubble appear that shows the total background checks in the state and the total of each type of background check.  On the right hand side is a legend that allows the user to select from the available years the data is available for.
 
-Sketch 2 shows the data in stacked bar chart form with each state on the x-axis and total on the y-axis.  The stacked bars form the total of each type of check with the total bar lenght the sum of the stacked bar.  On the right hand side is a legend that allows the user to select from the available years the data is available for.  As a bonus, if I went with this visualization, it would be interesting if it could play each year on it's own so one could see the changes in numbers of background checks over time.
+Sketch 2 shows the data in stacked bar chart form with each state on the x-axis and total on the y-axis.  The stacked bars form the total of each type of check with the total bar length being the sum of the stacked bar.  On the right hand side is a legend that allows the user to select from the available years the data is available for.  
 
 
 
