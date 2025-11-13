@@ -147,7 +147,7 @@ The final product of the stacked barchart shows the total number of NICS backgro
 
 This is the link to the final product: https://vizhub.com/rkupferwpi/ea9f228118024d6a83ce94d9a6c05843
 
-## US Map Final Product
+## US Map Final Product (next steps/vision)
 
 The final product of the US Map of NICS background checks for each state presents the user with a map of the US.  When they hover over a state, the state turns red and a pop up apears with the total number of checks for the year selected.  Addtionally the user is provided the total of each type of NICS check for the state for the selected year.  If the user clicks on the state, there is a zoomed in effect.  If the user clicks on another state they'll stay zoomed in and the viz will transition to that state.  In order to return to the default zoom the user can click the reset view button on the bottom right of the screen.  Alternatively, if the state selected has water in its zoomed view, the user can click the water and it will return to the default view.  
 
