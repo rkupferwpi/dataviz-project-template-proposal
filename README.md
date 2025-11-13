@@ -134,9 +134,18 @@ Here is the link to the VIZ: https://vizhub.com/rkupferwpi/ea9f228118024d6a83ce9
 
 ## US Map Polishing
 
-I've updated the map by adding a title, removing the black border around the continental US, Alaska, and Hawaii, changed the background around the US to a light blue with an opacity of .4, and changed the background color of the states to a light gray.
+I've updated the map by adding a title, removing the black border around the continental US, Alaska, and Hawaii, changed the background around the US to a light blue with an opacity of .4, and changed the background color of the states to a light gray.  Addtionally, I've added a blue hue around the US to present the US as between oceans (ignore the affect on Canada).
 
 Here is an image of this viz: 
 <img width="1273" height="556" alt="US Map Polishing" src="https://github.com/user-attachments/assets/9b11198b-fb3e-4f09-be92-c7797ea28dcf" />
 
 Here is a link to the viz: https://vizhub.com/rkupferwpi/91099e4e0c2c4f259b39f9ad9384a909
+
+## Barchart Final Product
+
+The final product of the stacked barchart shows the total number of NICS background checks for each state by stacking the total of each of the four categories of background checks - handgun, long gun, other, and multiple.  The default ordering of states is descending from most to least number of NICS checks.  However, the ordering is user selectable from least to most, most to least, and alphabatized by state name.  Additionally, the user can select the year they want to view from 1998 to 2023 and the can also narrow the view to the top 10, top 25, or all states.  The user can hover over each category in the legend to highlight that category in each bar.
+
+## US Map Final Product
+
+The final product of the US Map of NICS background checks for each state presents the user with a map of the US.  When they hover over a state, the state turns red and a pop up apears with the total number of checks for the year selected.  Addtionally the user is provided the total of each type of NICS check for the state for the selected year.  If the user clicks on the state, there is a zoomed in effect.  If the user clicks on another state they'll stay zoomed in and the viz will transition to that state.  In order to return to the default zoom the user can click the reset view button on the bottom right of the screen.  Alternatively, if the state selected has water in its zoomed view, the user can click the water and it will return to the default view.  
+
