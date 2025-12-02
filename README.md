@@ -93,7 +93,7 @@ Here is the link to the current iteration: https://vizhub.com/rkupferwpi/767dedb
 
 ## Barchart Polishing
 
-I've updated the bar chart with a title, adjusted the drop down selector positioning, and the legend positioning.  I've also changed the background color to a softer color.
+The bar chart has been updated with a title, the drop down selector positioning as been adjusted, and the legend positioning has been adjusted. The background color has been changed to a softer color.
 
 Here is an image of the viz:
 <img width="1261" height="577" alt="Bar Chart Polishing" src="https://github.com/user-attachments/assets/13c3b5c4-0c8f-4fb8-a1e6-bd82051fd3b9" />
