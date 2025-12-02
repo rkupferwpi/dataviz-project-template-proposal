@@ -54,9 +54,9 @@ This is the link to this iteration the bar chart viz: https://vizhub.com/rkupfer
 
 ## Barchart Interactivity
 
-I've added interactivity with the legend on my bar chart such that when the user hovers over the specific type of NICS check the opacity of the other types changes.  When the user moves away from the legend the opacity returns to 1 for all types.  Additionally, I've repositioned the legend, the year selector, and the top counts.  The map based viz I'm working on for my project does not really lend itself to multiple colors and a legend.  I thought about filling in the states with different colors but that will just look confusing as it doesn't correspond to any data that I'd be trying to relay.  My bar chart was a much better candidate for this tasking.
+Interactivity has been added to the legend on the bar chart such that when the user hovers over the specific type of NICS check the opacity of the other types changes.  When the user moves away from the legend the opacity returns to 1 for all types.  Additionally, the legend, the year selector, and the top counts have been repositioned.  
 
-Here is the link to the viz in vizhub:
+This is the link to this iteration of the viz in vizhub:
 https://vizhub.com/rkupferwpi/5f7d5f65164c4f2e8d9355f42a40df43
 
 Here is the result when I hover over handguns:
