@@ -77,7 +77,7 @@ When I hover over other:
 
 ## Additional Barchart Interactivity
 
-I've added the following interactivity to the bar chart vis of NICS background checks.  I've added a sort drop down menu that allows the user to organize the bar chart by most to least checks, least to most checks, and alphabetical by state.  I've also added code to move the legend when least to most checks is selected so the bars don't interfere with the legend.
+The following interactivity has been added to the bar chart vis of NICS background checks.  A sort drop down menu that allows the user to organize the bar chart by most to least checks, least to most checks, and alphabetical by state.  Also, code has been added to move the legend when least to most checks is selected so the bars don't interfere with the legend.
 
 Here are screenshots of these effects.
 Most to least:
