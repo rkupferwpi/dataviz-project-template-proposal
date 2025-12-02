@@ -105,8 +105,7 @@ Here is the link to the VIZ: https://vizhub.com/rkupferwpi/ea9f228118024d6a83ce9
 The final stacked barchart product consists of the following features, the total number of NICS background checks for each state is shown by stacking the total of each of the four categories of background checks - handgun, long gun, other, and multiple.  The default ordering of states is descending from most to least number of NICS checks.  However, the ordering is user selectable from least to most, most to least, and alphabatized by state name.  The user can select the year they want to view from 1998 to 2023 and the can also narrow the view to the top 10, top 25, or all states.  The user can hover over each category in the legend to highlight that category in each bar.  Transitioning has been added to allow the user to "play" the changes of the bar charts over the years.  The user can pause this action.  The user can also adjust the speed at which the transition plays from .5 seconds to 5 seconds in .5 second intervals.  This helps provide an visualation of the changes in totals for each state over the years.
 
 The following image is what the user is presented with when the first open the visualization.
+
 <img width="1263" height="581" alt="Barchart Final Product" src="https://github.com/user-attachments/assets/bce05586-6860-4a8c-9473-b06b2d569ff8" />
 
-
 The link to the final product barchart is: https://vizhub.com/rkupferwpi/83fd0ab4095847ef8e445f1e09595633
-
