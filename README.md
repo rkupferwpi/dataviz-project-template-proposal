@@ -15,7 +15,7 @@ Categories 1, 2, and 4 are self explanatory.  Category 3 is not self explanatory
 
 ## Questions the VIZ will Answer
 
-The following questions will drive the visualization and interaction decisions for this project:
+The following questions drove the visualization and interaction decisions for this project:
 
  * What are the total number of background checks performed for the selected state?
  * How many background checks are performed for each category of background check for each state?
