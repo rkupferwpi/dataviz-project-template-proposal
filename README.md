@@ -38,14 +38,6 @@ The following sketch conceptualized the direction the visualization would go.
 
 The sketch shows the data in stacked bar chart form with each state on the horizontal axis and totals on the vertical axis.  The stacked bars form the total of each type of check with the total bar length being the sum of the stacked bar.  On the right hand side of this conceptualization is a legend that allows the user to select from the available years the data is available for.  
 
-## First Steps for the Map Viz
-
-I loaded the map of the US showing just the state borders.  Here is a picture of the map.
-
-<img width="962" height="501" alt="US Map With States" src="https://github.com/user-attachments/assets/4e179e32-bb64-4696-9215-b1be71f8df73" />
-
-## Here is the link to the file on VizHub:
-https://vizhub.com/rkupferwpi/1362d30acea64463912d010ce1fa7b5f
 
 ## Barchart
 I have updated my NICS stacked bar chart to include all the years in the dataset.  I've added a drop down to make the year shown selectable by the user.  I added an addtional drop down to allow the user to show the top 10 states, the top 25 states, or all states.  I've also added a pop up that appears when a user hovers over a bar to show the totals of each type of background check for that state.  Here are some pictures:
