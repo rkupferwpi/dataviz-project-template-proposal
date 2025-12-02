@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The visualization (viz) project I propose to create is a viz that shows by state the number of National Instant Check System (NICS) background checks that occured during selected years.  The data NICS background check data was obtained from https://github.com/BuzzFeedNews/nics-firearm-background-checks.  My primary goal is a map of the US that shows the NICS background check data for that state as a pop up when the user hovers over a state.  Additionally, I'm creating a stacked bar chart to show the NICS background check data for each state.
+This visualization (viz) project will show by state the number of National Instant Check System (NICS) background checks that occured during selected years.  The NICS background check data was obtained from https://github.com/BuzzFeedNews/nics-firearm-background-checks.  The visualization will be a stacked bar chart of the NICS background check data for each state along the horizontal axis.  The vertical axis will provide the totals.  The stacked bar chart will be formed from the four types of background checks presented in the data.  
 
 Here is some information on the data.  The data contains four categories of background checks:
 1. Handguns
@@ -10,7 +10,7 @@ Here is some information on the data.  The data contains four categories of back
 3. Other
 4. Multiple
 
-Categories 1, 2, and 4 are self explanatory.  Category 3 is not self explanatory but what other is are items that are frames (instead of completed firearms), National Firearms Act (NFA) weapons (ie, silencers, machine guns, etc...), and other firearms that are neither handguns nor long guns.  The data ranges from years 1998 to 2023.
+Categories 1, 2, and 4 are self explanatory.  Category 3 is not self explanatory.  What Other consists of are items that are frames (instead of completed firearms), National Firearms Act (NFA) weapons (ie, silencers, machine guns, etc...), and other firearms that are neither handguns nor long guns.  The data ranges from years 1998 to 2023.
 
 
 ## Questions the VIZ will Answer
@@ -23,13 +23,9 @@ The following questions will drive the visualization and interaction decisions f
    
 ## Anticipated Challenges
 
-These are some of the challenges I forsee in creating this viz.
+These are some of the challenges I forsaw in creating this viz.
 
  * How to convert the provided month-years to useable date formats
- * How to load in a map of the US that shows each state
- * How to associate the state names data with the map boarders
- * How to hover over or click on a state and obtain the data
- * How to make that data appear in a bubble over the state
  * How to make the data show the total for each year and by type of check (without having do modify the csv data to include totals)
  * How to make a legend with years that are selectable such that the data for each state appears for the selected year
 
