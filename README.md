@@ -104,7 +104,7 @@ Here is the link to the VIZ: https://vizhub.com/rkupferwpi/ea9f228118024d6a83ce9
 
 After additional polishing of the stacked barchart, the total number of NICS background checks for each state is shown by stacking the total of each of the four categories of background checks - handgun, long gun, other, and multiple.  The default ordering of states is descending from most to least number of NICS checks.  However, the ordering is user selectable from least to most, most to least, and alphabatized by state name.  Additionally, the user can select the year they want to view from 1998 to 2023 and the can also narrow the view to the top 10, top 25, or all states.  The user can hover over each category in the legend to highlight that category in each bar.
 
-This is the link to the final product: https://vizhub.com/rkupferwpi/ea9f228118024d6a83ce94d9a6c05843
+This is the link to this polished version: https://vizhub.com/rkupferwpi/ea9f228118024d6a83ce94d9a6c05843
 
 ## Barchart Final Product
 
