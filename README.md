@@ -52,14 +52,6 @@ I have updated my NICS stacked bar chart to include all the years in the dataset
 
 This is the link to this iteration the bar chart viz: https://vizhub.com/rkupferwpi/bbb53529f42e425285b5f0e67fc74664
 
-## US Map Update
-
-I've updated my map viz to show a pop up with the name of the state the user is hovering over.  The goal is to get the background check types and totals to show up in the pop up.  Additionally, I updated the viz such that the state that the user hover over fills in with red color.  This is the viz that I would prefer to use for my project.  However, I feel like the most challenging step will be getting the NICS background data to associate with each state.  Here is a picture of the work:
-
-<img width="966" height="502" alt="US Map with Pop up and Red Fill on Hover" src="https://github.com/user-attachments/assets/594e8624-0f69-41df-83d3-0da38d3724a2" />
-
-This is the link to this iteration of the map viz: https://vizhub.com/rkupferwpi/b20439bfcbd04d27bdd0ac0b1f7f2966
-
 ## Barchart Interactivity
 
 I've added interactivity with the legend on my bar chart such that when the user hovers over the specific type of NICS check the opacity of the other types changes.  When the user moves away from the legend the opacity returns to 1 for all types.  Additionally, I've repositioned the legend, the year selector, and the top counts.  The map based viz I'm working on for my project does not really lend itself to multiple colors and a legend.  I thought about filling in the states with different colors but that will just look confusing as it doesn't correspond to any data that I'd be trying to relay.  My bar chart was a much better candidate for this tasking.
@@ -82,15 +74,6 @@ When I hover over multiple:
 When I hover over other:
 
 <img width="1266" height="571" alt="Other" src="https://github.com/user-attachments/assets/4ef943f3-8312-4726-914a-d798f3aa803f" />
-
-## US Map Interactivity
-
-I've added the following interactivity to my US map.  When the user clicks on a state, they get a zoomed in view of the state.  When the user clicks off of the state it will zoom out.  However, if the user clicks on another state the viz zooms into that state.  So I've added a reset view button to the bottom right of the viz to restore the view to the default zoom level which shows the entirety of the United States.
-
-Here is a screen shot of this effect:
-<img width="1232" height="587" alt="Zoomed In On Missouri" src="https://github.com/user-attachments/assets/dfd0465d-f3e0-4731-bdb7-77a708419999" />
-
-Here is a link to this iteration:  https://vizhub.com/rkupferwpi/fb169b7e4c5d4f55bc8aa424ff0a1d85
 
 ## Additional Barchart Interactivity
 
@@ -117,23 +100,13 @@ Here is an image of the viz:
 
 Here is the link to the VIZ: https://vizhub.com/rkupferwpi/ea9f228118024d6a83ce94d9a6c05843
 
-## US Map Polishing
+## Barchart Further Polishing
 
-I've updated the map by adding a title, removing the black border around the continental US, Alaska, and Hawaii, changed the background around the US to a light blue with an opacity of .4, and changed the background color of the states to a light gray.  Addtionally, I've added a blue hue around the US to present the US as between oceans (ignore the affect on Canada).
-
-Here is an image of this viz: 
-<img width="1273" height="556" alt="US Map Polishing" src="https://github.com/user-attachments/assets/9b11198b-fb3e-4f09-be92-c7797ea28dcf" />
-
-Here is a link to the viz: https://vizhub.com/rkupferwpi/91099e4e0c2c4f259b39f9ad9384a909
-
-## Barchart Final Product
-
-The final product of the stacked barchart shows the total number of NICS background checks for each state by stacking the total of each of the four categories of background checks - handgun, long gun, other, and multiple.  The default ordering of states is descending from most to least number of NICS checks.  However, the ordering is user selectable from least to most, most to least, and alphabatized by state name.  Additionally, the user can select the year they want to view from 1998 to 2023 and the can also narrow the view to the top 10, top 25, or all states.  The user can hover over each category in the legend to highlight that category in each bar.
+After additional polishing of the stacked barchart, the total number of NICS background checks for each state is shown by stacking the total of each of the four categories of background checks - handgun, long gun, other, and multiple.  The default ordering of states is descending from most to least number of NICS checks.  However, the ordering is user selectable from least to most, most to least, and alphabatized by state name.  Additionally, the user can select the year they want to view from 1998 to 2023 and the can also narrow the view to the top 10, top 25, or all states.  The user can hover over each category in the legend to highlight that category in each bar.
 
 This is the link to the final product: https://vizhub.com/rkupferwpi/ea9f228118024d6a83ce94d9a6c05843
 
-## US Map Final Product (next steps/vision)
+## Barchart Final Product
 
-The final product of the US Map of NICS background checks for each state presents the user with a map of the US.  When they hover over a state, the state turns red and a pop up apears with the total number of checks for the year selected.  Addtionally the user is provided the total of each type of NICS check for the state for the selected year.  If the user clicks on the state, there is a zoomed in effect.  If the user clicks on another state they'll stay zoomed in and the viz will transition to that state.  In order to return to the default zoom the user can click the reset view button on the bottom right of the screen.  Alternatively, if the state selected has water in its zoomed view, the user can click the water and it will return to the default view.  
+The link to the final product barchart is: https://vizhub.com/rkupferwpi/83fd0ab4095847ef8e445f1e09595633
 
-This is the link to the final product: https://vizhub.com/rkupferwpi/91099e4e0c2c4f259b39f9ad9384a909
