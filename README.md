@@ -31,15 +31,12 @@ These are some of the challenges I forsaw in creating this viz.
 
 ## Putting Ideas to Paper
 
-The following two sketches put my ideas onto paper for future development.
-
-![Sketch 1](https://github.com/user-attachments/assets/86a18823-b548-4693-985d-c8444ea128ce)
+The following sketch conceptualized the direction the visualization would go.
 
 ![Sketch 2](https://github.com/user-attachments/assets/c2deb32d-e055-4cba-9ea9-b99cb1e4b413)
 
-Sketch 1 shows the data as I would like to present it, as a map of the US where the user can hover over a state and have a bubble appear that shows the total background checks in the state and the total of each type of background check.  On the right hand side is a legend that allows the user to select from the available years the data is available for.
 
-Sketch 2 shows the data in stacked bar chart form with each state on the x-axis and total on the y-axis.  The stacked bars form the total of each type of check with the total bar length being the sum of the stacked bar.  On the right hand side is a legend that allows the user to select from the available years the data is available for.  
+The sketch shows the data in stacked bar chart form with each state on the horizontal axis and totals on the vertical axis.  The stacked bars form the total of each type of check with the total bar length being the sum of the stacked bar.  On the right hand side of this conceptualization is a legend that allows the user to select from the available years the data is available for.  
 
 ## First Steps for the Map Viz
 
