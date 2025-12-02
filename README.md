@@ -108,4 +108,4 @@ The following image is what the user is presented with when the first open the v
 
 <img width="1263" height="581" alt="Barchart Final Product" src="https://github.com/user-attachments/assets/bce05586-6860-4a8c-9473-b06b2d569ff8" />
 
-The link to the final product barchart is: https://vizhub.com/rkupferwpi/83fd0ab4095847ef8e445f1e09595633
+The link to the final product barchart is: https://vizhub.com/rkupferwpi/3821fb6d25c546eca27173098c2104b3
