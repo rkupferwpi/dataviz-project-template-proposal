@@ -40,7 +40,7 @@ The sketch shows the data in stacked bar chart form with each state on the horiz
 
 
 ## Barchart
-The initial work on the NICS stacked bar chart includes all the years in the dataset.  There is a drop down menu to make the year shown selectable by the user.  There is an addtional drop down to allow the user to show the top 10 states, the top 25 states, or all states.  A pop up as been added to the viz that appears when a user hovers over a bar to show the totals of each type of background check for that state.  The following pictures show these visualization actions:
+The initial work on the NICS stacked bar chart includes all the years in the dataset.  There is a drop down menu to make the year shown above the legend on the right hand side of the viz, selectable by the user.  There is an addtional drop down to allow the user to show the top 10 states, the top 25 states, or all states.  A pop up as been added to the viz that appears when a user hovers over a bar to show the totals of each type of background check for that state.  The following pictures show these visualization actions:
 
 <img width="1259" height="577" alt="Top 25 States 2023" src="https://github.com/user-attachments/assets/ddefbe92-c2fa-460b-859a-613f47e758e6" />
 <img width="1251" height="575" alt="Top 25 States 2009" src="https://github.com/user-attachments/assets/ac28069e-2641-4dc0-8938-d6a8fa1fb937" />
